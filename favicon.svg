@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">NZ Tech Route</title>
+  <desc id="desc">A lime NZ monogram on a dark field with an orange route marker.</desc>
+  <rect width="64" height="64" rx="14" fill="#172a2d"/>
+  <path d="M14 45V19h7l15 16V19h7v26h-7L21 29v16z" fill="#c9f36b"/>
+  <path d="M48 13a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z" fill="#ff8b5e"/>
+  <path d="M48 23v10" stroke="#ff8b5e" stroke-width="3" stroke-linecap="round"/>
+</svg>
