@@ -14,4 +14,4 @@
 
 ## 内容说明
 
-移民、签证、职业清单和工资门槛会变化。页面中的官方链接是进一步核验入口；提交申请前应以 Immigration New Zealand 的具体签证页面和雇主/学校要求为准。
+移民、签证、职业清单和工资门槛会变化。2026 年 3 月 9 日生效的 Green List Appendix 13 已更新 ICT Tier 1 工资线；页面目前按 Software Engineer / Developer Programmer 等角色 NZD 72.80/小时、每周40小时约 NZD 151,424/年做公开参考。页面中的官方链接是进一步核验入口；提交申请前应以 Immigration New Zealand 的具体签证页面和雇主/学校要求为准。
