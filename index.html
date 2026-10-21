@@ -15,10 +15,12 @@
         <div class="mark"><span class="mark-badge" aria-hidden="true">AU</span><span class="mark-word">AU + NZ</span><small>TECH ROUTE</small></div>
         <nav aria-label="页面导航">
           <a class="active" href="#overview">总览</a>
-          <a href="#job">澳新求职</a>
-          <a href="#visa">签证路径</a>
-          <a href="#family">家庭规划</a>
-          <a href="#resources">生活导航</a>
+          <a href="#nz">新西兰</a>
+          <a href="#au">澳大利亚</a>
+          <a href="#compare">澳新对比</a>
+          <a href="#visa">新西兰签证</a>
+          <a href="#family">新西兰家庭</a>
+          <a href="#resources">落地资源</a>
           <a href="#checklist">清单</a>
         </nav>
         <p class="rail-note">公开安全版<br />仅保留可复用信息</p>
@@ -42,6 +44,12 @@
           </div>
         </section>
 
+        <section class="country-switch" aria-label="选择查看内容">
+          <a class="country-choice nz-choice" href="#nz"><span>NZ</span><div><b>新西兰</b><small>认证雇主 · Green List · Resident 路径</small></div><i>查看</i></a>
+          <a class="country-choice au-choice" href="#au"><span>AU</span><div><b>澳大利亚</b><small>雇主担保 · 482 / 186 · 科技公司</small></div><i>查看</i></a>
+          <a class="country-choice compare-choice" href="#compare"><span>↔</span><div><b>直接对比</b><small>雇主核验 · 签证路线 · 适合怎样的求职策略</small></div><i>比较</i></a>
+        </section>
+
         <section class="route-strip" aria-label="路线阶段">
           <div><span>01</span><b>Offer</b><small>合规雇主与职位</small></div>
           <div><span>02</span><b>Resident</b><small>直接或技术移民</small></div>
@@ -50,40 +58,59 @@
           <div><span>05</span><b>Parents</b><small>单独类别与等待</small></div>
         </section>
 
-        <section id="job" class="content-section">
-          <div class="section-heading"><span class="section-number">01</span><div><p class="kicker">WORK FIRST</p><h2>澳新求职与雇主筛选</h2></div></div>
+        <section id="nz" class="content-section country-section nz-section">
+          <div class="section-heading"><span class="section-number">NZ</span><div><p class="kicker">NEW ZEALAND</p><h2>新西兰：找工作与认证雇主</h2><p class="section-intro">聚焦新西兰雇主认证、Green List ICT 岗位、工资门槛和科技公司职业入口。</p></div></div>
           <div class="grid-2">
-            <article class="panel accent-panel"><h3>优先看这四个信号</h3><ul><li>新西兰：雇主在 INZ accredited employer 名单中；澳洲：雇主确认当前 SBS / 相应担保资格</li><li>职位职责能匹配职业代码，而不是只看公司职位名称</li><li>岗位接受境外申请，愿意承担签证流程并为具体职位提名</li><li>工资、合同、地点和职位满足目标签证及居民路径要求</li></ul></article>
+            <article class="panel accent-panel"><h3>新西兰 offer 核对</h3><ul><li>雇主在 INZ accredited employer 名单中，或直接向 HR 核实未公开的认证</li><li>职位职责符合目标职业代码和 Green List 条目</li><li>合同类型、工时和工资满足对应签证要求</li><li>确认公司愿意支持境外申请及具体签证流程</li></ul></article>
             <article class="panel"><h3>适合的岗位关键词</h3><div class="chips"><span>Senior Backend</span><span>Software Engineer</span><span>AI Platform</span><span>ML Platform</span><span>Distributed Systems</span><span>Agentic AI</span></div><p class="muted">后端、推荐系统、分布式系统和生产级 AI 应用经验，可以组合成“可靠系统 + AI 产品”的叙事。</p></article>
           </div>
           <div class="offer-audit">
             <div><p class="kicker">OFFER AUDIT</p><h3>拿到 offer 后，先核对这 8 项</h3></div>
             <div class="audit-grid"><span><b>01</b>雇主认证状态与法律实体</span><span><b>02</b>ANZSCO / NOL 职业匹配</span><span><b>03</b>职责与级别匹配</span><span><b>04</b>全职与合同期限</span><span><b>05</b>工资组成与市场薪资</span><span><b>06</b>提名及签证申请由谁负责</span><span><b>07</b>签证/搬迁支持</span><span><b>08</b>居民路径是否有条件</span></div>
           </div>
-          <div class="official-links"><span>先看官方核验入口</span><a href="https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list/" target="_blank" rel="noreferrer">新西兰：查 accredited employer ↗</a><a href="https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/" target="_blank" rel="noreferrer">查 Green List ↗</a><a href="https://www.employment.govt.nz/starting-employment/employment-agreements/creating-an-employment-agreement" target="_blank" rel="noreferrer">看合同要求 ↗</a></div>
+          <div class="official-links"><span>新西兰官方核验</span><a href="https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list/" target="_blank" rel="noreferrer">查 accredited employer ↗</a><a href="https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/" target="_blank" rel="noreferrer">查 Green List ↗</a><a href="https://www.employment.govt.nz/starting-employment/employment-agreements/creating-an-employment-agreement" target="_blank" rel="noreferrer">看合同要求 ↗</a></div>
           <div class="change-note"><div><p class="kicker">RULE UPDATE · 09 MAR 2026</p><h3>Tier 1 IT 工资线已更新</h3></div><div><p>当前 Green List Appendix 13 中，<b>Software Engineer / Developer Programmer</b> 的普通雇员门槛为 <b>NZD 70.00 / 小时</b>；CIO 为 NZD 72.80 / 小时。年薪仅按每周40小时换算，申请时以具体职业条目和合同为准。</p><a href="https://www.immigration.govt.nz/opsmanual/89117.htm" target="_blank" rel="noreferrer">查看当前官方条目 ↗</a></div></div>
           <div class="salary-table-wrap"><table class="salary-table"><caption>Green List Tier 1 · ICT / Electronics / Telecommunications</caption><thead><tr><th>岗位与 ANZSCO</th><th>普通雇员最低工资</th><th>40小时/周年薪参考</th><th>Contract for services</th></tr></thead><tbody><tr><td>Chief Information Officer · 135111</td><td>NZD 72.80 / 小时</td><td>约 NZD 151,424</td><td>NZD 109.20 / 小时 + 10年相关经验</td></tr><tr><td>ICT Project Manager · ICT Managers nec · Analyst Programmer · Developer Programmer · Software Engineer · Software Tester · ICT Security Specialist · Software and Applications Programmers nec · Database Administrator · 135112 / 135199 / 261311 / 261312 / 261313 / 261314 / 262112 / 261399 / 262111</td><td>NZD 70.00 / 小时</td><td>NZD 145,600</td><td>NZD 87.50 / 小时 + 10年相关经验</td></tr><tr><td>Systems Administrator · 262113</td><td>NZD 70.00 / 小时</td><td>NZD 145,600</td><td>NZD 87.50 / 小时 + 10年相关经验</td></tr><tr><td>Multimedia Specialist · 261211</td><td>NZD 57.75 / 小时</td><td>约 NZD 120,120</td><td>NZD 86.45 / 小时 + 10年相关经验</td></tr></tbody></table></div>
           <div class="jobs"><h3>新西兰科技雇主：先查认证，再投岗位</h3><p class="muted">以下是科技雇主和职业页线索，不代表其法律实体当前一定持有认证，也不代表岗位愿意担保。INZ 名单每日更新；请用 offer 上的雇主法定名称或 NZBN 查询。名单未显示也可能是雇主选择不公开，需直接向 HR 核实。</p><div class="job-list"><a href="https://careers.xero.com/our-teams/engineering/" target="_blank" rel="noreferrer"><b>Xero</b><span>SaaS / Data & AI · Auckland / Wellington · 查INZ法律实体</span><i>↗</i></a><a href="https://www.serko.com/careers" target="_blank" rel="noreferrer"><b>Serko</b><span>商旅科技 / Serko.ai · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://pushpay.com/about-us/careers/new-zealand/" target="_blank" rel="noreferrer"><b>Pushpay</b><span>SaaS / 支付 / AI Platform · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://datacom.com/nz/en/careers" target="_blank" rel="noreferrer"><b>Datacom</b><span>Cloud / Enterprise Tech / Cyber · 多地 · 查INZ法律实体</span><i>↗</i></a><a href="https://www.auror.co/nz/company-careers" target="_blank" rel="noreferrer"><b>Auror</b><span>零售安全 / AI / SaaS · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://eroadgroup.wd3.myworkdayjobs.com/EROAD" target="_blank" rel="noreferrer"><b>EROAD</b><span>车联网 / IoT / Transport Data · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://www.partly.com/careers/open-roles" target="_blank" rel="noreferrer"><b>Partly</b><span>AI Parts Infrastructure · Auckland / Christchurch · 查INZ法律实体</span><i>↗</i></a><a href="https://jobs.ashbyhq.com/halter" target="_blank" rel="noreferrer"><b>Halter</b><span>农业科技 / IoT / AI · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://www.cin7.com/careers/" target="_blank" rel="noreferrer"><b>Cin7</b><span>Inventory SaaS · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://www.vistagroup.co.nz/careers/" target="_blank" rel="noreferrer"><b>Vista Group</b><span>影院软件 / 数据平台 · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://www.windcave.com/careers" target="_blank" rel="noreferrer"><b>Windcave</b><span>Payments / Fintech · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://rocketlabcorp.com/careers/" target="_blank" rel="noreferrer"><b>Rocket Lab</b><span>航天 / Flight Software · Auckland / Warkworth · 查INZ法律实体</span><i>↗</i></a><a href="https://careers.fphcare.com/" target="_blank" rel="noreferrer"><b>Fisher & Paykel Healthcare</b><span>MedTech / Digital / R&D · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://www.rakon.com/careers" target="_blank" rel="noreferrer"><b>Rakon</b><span>RF / Precision Timing · Auckland · 查INZ法律实体</span><i>↗</i></a><a href="https://www.taitcommunications.com/careers" target="_blank" rel="noreferrer"><b>Tait Communications</b><span>关键通信 / Hardware · Christchurch · 查INZ法律实体</span><i>↗</i></a><a href="https://careers.gallagher.com/" target="_blank" rel="noreferrer"><b>Gallagher</b><span>Security / AgTech / IoT · Hamilton · 查INZ法律实体</span><i>↗</i></a><a href="https://www.wetafx.co.nz/careers" target="_blank" rel="noreferrer"><b>Wētā FX</b><span>VFX / Graphics Computing · Wellington · 查INZ法律实体</span><i>↗</i></a></div></div>
-          <div class="country-block">
-            <div class="country-heading"><span class="country-flag">AU</span><div><p class="kicker">AUSTRALIA · EMPLOYER SPONSORED</p><h3>澳洲科技公司与海外招聘入口</h3></div></div>
-            <div class="notice-card"><b>先说清“认证”：</b>澳洲常见雇主担保路径要求雇主成为 Standard Business Sponsor（482/494），并为具体岗位递交 nomination；186 永居也要符合雇主提名要求。2026 年修法已授权公布获批担保人信息，但截至本页核验日，尚未找到 Home Affairs 官方实时查询入口；旧 FOI 名单和商业数据库只作线索。投递前请公司确认其当前 sponsor approval、愿意从境外招聘、岗位可提名及提名职业/工资条件。<a href="https://www.legislation.gov.au/C2026A00039/asmade/2026-04-08/text/1/epub/OEBPS/document_1/document_1.html" target="_blank" rel="noreferrer">查看修法原文 ↗</a></div>
-            <div class="company-list">
-              <a href="https://jobs.ashbyhq.com/coreflow/d3e1dd18-a41b-47f1-90b6-a35806523141" target="_blank" rel="noreferrer"><b>Coreflow</b><span>悉尼 · 官方招聘页明确写明全球招聘、提供签证赞助和搬迁支持；提交申请前仍应确认雇主法律实体及当前担保/提名安排。</span><i>岗位明确支持海外候选人 ↗</i></a>
-              <a href="https://www.atlassian.com/company/careers" target="_blank" rel="noreferrer"><b>Atlassian</b><span>悉尼 / 澳大利亚 · 大型软件产品公司；逐个岗位确认 relocation / visa support。</span><i>目标雇主，待岗位核验 ↗</i></a>
-              <a href="https://www.canva.com/careers/" target="_blank" rel="noreferrer"><b>Canva</b><span>悉尼 · 产品、平台、AI 与基础设施岗位；逐个岗位确认海外担保政策。</span><i>目标雇主，待岗位核验 ↗</i></a>
-              <a href="https://www.amazon.jobs/en/locations/australia" target="_blank" rel="noreferrer"><b>Amazon / AWS</b><span>悉尼 / 墨尔本等 · Cloud、Backend、ML、Infrastructure；看具体职位说明。</span><i>目标雇主，待岗位核验 ↗</i></a>
-              <a href="https://www.google.com/about/careers/applications/locations/australia/" target="_blank" rel="noreferrer"><b>Google Australia</b><span>悉尼 / 墨尔本 · 软件、云与 AI 职位；需确认岗位对境外申请者的支持。</span><i>目标雇主，待岗位核验 ↗</i></a>
-              <a href="https://careers.microsoft.com/v2/global/en/locations/australia.html" target="_blank" rel="noreferrer"><b>Microsoft Australia</b><span>悉尼 / 墨尔本等 · Azure、软件工程、数据与安全岗位。</span><i>目标雇主，待岗位核验 ↗</i></a>
-              <a href="https://optiver.com/working-at-optiver/career-opportunities/" target="_blank" rel="noreferrer"><b>Optiver</b><span>悉尼 · 量化交易与低延迟工程；确认职位是否提供签证及搬迁。</span><i>目标雇主，待岗位核验 ↗</i></a>
-              <a href="https://www.xero.com/careers/" target="_blank" rel="noreferrer"><b>Xero Australia</b><span>悉尼 / 墨尔本等 · SaaS、平台与数据工程；与新西兰实体分开核验。</span><i>目标雇主，待岗位核验 ↗</i></a>
-            </div>
-            <div class="official-links"><span>澳洲核验与岗位搜索</span><a href="https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/becoming-a-sponsor/standard-business-sponsor" target="_blank" rel="noreferrer">SBS 官方要求 ↗</a><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482" target="_blank" rel="noreferrer">482 官方签证说明 ↗</a><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186" target="_blank" rel="noreferrer">186 官方签证说明 ↗</a><a href="https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/learn-about-sponsoring/cost-of-sponsoring" target="_blank" rel="noreferrer">担保成本与雇主责任 ↗</a><a href="https://au.seek.com/visa-sponsorship-information-technology-jobs/in-All-Sydney-NSW" target="_blank" rel="noreferrer">SEEK · 悉尼 IT sponsorship 搜索 ↗</a><a href="https://www.abf.gov.au/about-us/what-we-do/sponsor-sanctions/register-of-sanctioned-sponsors" target="_blank" rel="noreferrer">查询被制裁担保人 ↗</a></div>
-            <p class="muted">雇主担保常见签证：Skills in Demand 482（临时工作）与 Employer Nomination Scheme 186（永居，含 Direct Entry / TRT 等路径）。雇主认证不等于岗位自动获批，也不等于保证给你担保；不要向雇主支付其依法应承担的担保/提名费用。</p>
-          </div>
         </section>
 
-        <section id="visa" class="content-section dark-section">
-          <div class="section-heading"><span class="section-number">02</span><div><p class="kicker">RESIDENCE PATH</p><h2>工作 offer 之后</h2></div></div>
+        <section id="au" class="content-section country-section au-section">
+          <div class="section-heading"><span class="section-number">AU</span><div><p class="kicker">AUSTRALIA</p><h2>澳大利亚：雇主担保与科技岗位</h2><p class="section-intro">把“公司有资质”“愿意担保这个岗位”“岗位可以提名”分开确认，不把大公司名气当作签证承诺。</p></div></div>
+          <div class="notice-card"><b>担保资格怎么核实：</b>482/494 常见路径需要 Standard Business Sponsor（或适用的其他批准担保人）并为具体职位递交 nomination；186 永居也要符合雇主提名要求。2026 年修法已授权公布获批担保人信息，但截至本页核验日，尚未找到 Home Affairs 官方实时查询入口；旧 FOI 名单和商业数据库只作线索。投递前请公司确认当前 sponsor approval、愿意从境外招聘、岗位可提名及提名职业/工资条件。<a href="https://www.legislation.gov.au/C2026A00039/asmade/2026-04-08/text/1/epub/OEBPS/document_1/document_1.html" target="_blank" rel="noreferrer">查看修法原文 ↗</a></div>
+          <div class="au-path-grid">
+            <article><span>工作签证</span><h3>Skills in Demand 482</h3><p>由雇主担保并提名具体岗位；是否符合职业、工资、英语和经验要求要按签证类别及职位分别核对。</p><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482" target="_blank" rel="noreferrer">官方签证说明 ↗</a></article>
+            <article><span>雇主提名永居</span><h3>Employer Nomination 186</h3><p>可能评估 Direct Entry 或满足条件后的 TRT 路径；不是拿到 482 就自动转永居，雇主提名和个人资格都要满足。</p><a href="https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186" target="_blank" rel="noreferrer">官方签证说明 ↗</a></article>
+          </div>
+          <h3 class="company-section-title">优先关注的科技雇主</h3>
+          <div class="company-list">
+            <a href="https://jobs.ashbyhq.com/coreflow/d3e1dd18-a41b-47f1-90b6-a35806523141" target="_blank" rel="noreferrer"><b>Coreflow</b><span>悉尼 · 官方招聘页明确写明全球招聘、提供签证赞助和搬迁支持；提交申请前仍应确认雇主法律实体及当前担保/提名安排。</span><i>岗位明确支持海外候选人 ↗</i></a>
+            <a href="https://www.atlassian.com/company/careers" target="_blank" rel="noreferrer"><b>Atlassian</b><span>悉尼 / 澳大利亚 · 软件产品公司；逐个岗位确认 relocation / visa support。</span><i>目标雇主，待岗位核验 ↗</i></a>
+            <a href="https://www.canva.com/careers/" target="_blank" rel="noreferrer"><b>Canva</b><span>悉尼 · 产品、平台、AI 与基础设施岗位；逐个岗位确认海外担保政策。</span><i>目标雇主，待岗位核验 ↗</i></a>
+            <a href="https://www.amazon.jobs/en/locations/australia" target="_blank" rel="noreferrer"><b>Amazon / AWS</b><span>悉尼 / 墨尔本等 · Cloud、Backend、ML、Infrastructure；看具体职位说明。</span><i>目标雇主，待岗位核验 ↗</i></a>
+            <a href="https://www.google.com/about/careers/applications/locations/australia/" target="_blank" rel="noreferrer"><b>Google Australia</b><span>悉尼 / 墨尔本 · 软件、云与 AI 职位；需确认岗位对境外申请者的支持。</span><i>目标雇主，待岗位核验 ↗</i></a>
+            <a href="https://careers.microsoft.com/v2/global/en/locations/australia.html" target="_blank" rel="noreferrer"><b>Microsoft Australia</b><span>悉尼 / 墨尔本等 · Azure、软件工程、数据与安全岗位。</span><i>目标雇主，待岗位核验 ↗</i></a>
+            <a href="https://optiver.com/working-at-optiver/career-opportunities/" target="_blank" rel="noreferrer"><b>Optiver</b><span>悉尼 · 量化交易与低延迟工程；确认职位是否提供签证及搬迁。</span><i>目标雇主，待岗位核验 ↗</i></a>
+            <a href="https://www.xero.com/careers/" target="_blank" rel="noreferrer"><b>Xero Australia</b><span>悉尼 / 墨尔本等 · SaaS、平台与数据工程；与新西兰实体分开核验。</span><i>目标雇主，待岗位核验 ↗</i></a>
+          </div>
+          <div class="official-links"><span>澳大利亚核验与求职</span><a href="https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/becoming-a-sponsor/standard-business-sponsor" target="_blank" rel="noreferrer">SBS 官方要求 ↗</a><a href="https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/sponsoring-workers/learn-about-sponsoring/cost-of-sponsoring" target="_blank" rel="noreferrer">担保成本与雇主责任 ↗</a><a href="https://au.seek.com/visa-sponsorship-information-technology-jobs/in-All-Sydney-NSW" target="_blank" rel="noreferrer">SEEK · 悉尼 IT sponsorship ↗</a><a href="https://www.abf.gov.au/about-us/what-we-do/sponsor-sanctions/register-of-sanctioned-sponsors" target="_blank" rel="noreferrer">查询被制裁担保人 ↗</a></div>
+          <p class="muted">雇主认证不等于岗位自动获批，也不等于公司愿意为每个职位担保；雇主依法承担的担保和提名费用不应转嫁给求职者。</p>
+        </section>
+
+        <section id="compare" class="content-section compare-section">
+          <div class="section-heading"><span class="section-number">↔</span><div><p class="kicker">AUSTRALIA / NEW ZEALAND</p><h2>澳新路线放在一起看</h2><p class="section-intro">以“人在中国大陆、寻找软件工程岗位”为前提。这里比较的是路线结构，不是对个案获批或招聘结果的保证。</p></div></div>
+          <div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>比较项</th><th><span class="table-country nz-label">新西兰</span></th><th><span class="table-country au-label">澳大利亚</span></th></tr></thead><tbody>
+            <tr><th>雇主核验</th><td>INZ 提供每日更新的 Accredited Employer 查询；按法律实体名称或 NZBN 查。</td><td>核对 SBS / 其他担保资格及岗位提名。官方 sponsor register 已有立法授权，但本页复核时未找到实时查询入口；直接向 HR 确认。</td></tr>
+            <tr><th>常见工作签证</th><td>AEWV：雇主认证、Job Check、岗位和个人资格均需满足。</td><td>Skills in Demand 482：雇主担保 + 具体岗位 nomination + 个人资格。</td></tr>
+            <tr><th>技术转永居</th><td>符合 Green List Tier 1 可评估 Straight to Residence；Tier 2 通常走 Work to Residence；另可评估 SMC。</td><td>雇主可评估 186 Direct Entry 或 482 后 TRT 等路径；不是自动转换，需分别满足提名和个人条件。</td></tr>
+            <tr><th>工资怎么核对</th><td>看具体 Green List 职业条目与工资门槛；本页已列 ICT Tier 1 现行参考线。</td><td>按对应签证的收入门槛和岗位市场工资核对，取适用规则要求的标准；不要只看总包数字。</td></tr>
+            <tr><th>求职时最关键的问题</th><td>“法律雇主是否认证？我的职责、工资、资格能否匹配该签证条目？”</td><td>“公司是否愿意从境外招聘？当前能否担保并为这个职位提名？”</td></tr>
+            <tr><th>路线特点</th><td>职业清单与认证查询更直观；如果职业和 offer 精确匹配 Tier 1，可能直接进入居民申请。</td><td>雇主和城市选择较多；但能否担保高度依赖具体公司、职位、薪资和招聘意愿。</td></tr>
+          </tbody></table></div>
+          <div class="compare-takeaway"><b>实际决策建议</b><p>两边同步找工作，但分开维护雇主清单：新西兰先用认证名单筛雇主，再看职位和 Green List；澳洲优先投明确写 visa sponsorship / relocation 的岗位，并在首轮沟通确认 sponsor approval 与 nomination。拿到具体 offer 后再比较净薪资、签证把握和家庭计划。</p></div>
+        </section>
+
+        <section id="visa" class="content-section dark-section country-section nz-section">
+          <div class="section-heading"><span class="section-number">NZ</span><div><p class="kicker">NEW ZEALAND · RESIDENCE</p><h2>新西兰 Resident Visa 与 PR</h2></div></div>
           <div class="timeline">
             <div class="path-grid">
               <article><span>NOW</span><h3>AEWV</h3><p>先用合规工作签证入境工作；适合已经拿到 offer、但居民路径还需要进一步确认的情况。</p><a href="https://www.immigration.govt.nz/visas/accredited-employer-work-visa/" target="_blank" rel="noreferrer">官方说明 ↗</a></article>
@@ -97,8 +124,9 @@
           <div class="language-box"><div><p class="kicker">ENGLISH</p><h3>移民线不是面试线</h3></div><div><b>NZ 技术居民签证常见最低线：IELTS 6.5 / PTE 58</b><p>实际求职建议按 IELTS 7.0 或 PTE 65 左右准备，重点练系统设计、项目复盘、线上故障和跨团队沟通。</p></div></div>
         </section>
 
-        <section id="family" class="content-section">
-          <div class="section-heading"><span class="section-number">03</span><div><p class="kicker">FAMILY MAP</p><h2>伴侣与父母不是同一条线</h2></div></div>
+        <section id="family" class="content-section country-section nz-section">
+          <div class="section-heading"><span class="section-number">NZ</span><div><p class="kicker">NEW ZEALAND · FAMILY</p><h2>新西兰伴侣与父母规划</h2></div></div>
+          <p class="section-intro">本节内容仅介绍新西兰的家庭签证与 NZ Super，不代表澳大利亚政策；澳洲伴侣和父母签证需单独评估。</p>
           <div class="family-grid">
             <article class="family-card"><span class="family-tag">PARTNER</span><h3>女朋友可以不结婚</h3><p>新西兰认可婚姻、civil union 和类似婚姻的伴侣关系。关键是证明真实、稳定、共同生活；居民申请通常应准备至少12个月的共同居住证据。</p><p class="muted">若暂时不足12个月，可研究 Partner of a Worker 的临时签证，但能否工作取决于你的签证和具体条件。</p></article>
             <article class="family-card"><span class="family-tag">PARENTS</span><h3>父母需要单独申请</h3><p>Parent Resident Visa 不是自动随行。担保人通常要成为新西兰居民/公民满3年，并满足居住、收入、健康、品格和英语等要求；父母还要先提交 EOI 并被邀请。</p><p class="muted">你只能先规划自己的父母；伴侣的父母通常要等伴侣自己成为居民后再走其成年子女担保路径。</p></article>
@@ -109,8 +137,8 @@
         </section>
 
         <section id="resources" class="content-section resources-section">
-          <div class="section-heading"><span class="section-number">04</span><div><p class="kicker">ONE-STOP DIRECTORY</p><h2>出发前后，先收藏这些入口</h2></div></div>
-          <p class="section-intro">平台负责发现信息，政府页面负责确认规则。租房、签证和工作机会都要回到原始页面核验，不要只相信论坛截图或中介转述。</p>
+          <div class="section-heading"><span class="section-number">NZ</span><div><p class="kicker">NEW ZEALAND · ARRIVAL</p><h2>新西兰出发前后资源</h2></div></div>
+          <p class="section-intro">本目录目前以新西兰（特别是奥克兰）为主。平台负责发现信息，政府页面负责确认规则；澳洲租房与落地信息暂不包含在本节。</p>
           <div class="resource-grid">
             <article class="resource-group"><div class="resource-head"><span>01</span><h3>找工作</h3></div><a href="https://nz.seek.com/" target="_blank" rel="noreferrer"><b>SEEK NZ</b><small>职位量大；设置 Auckland、ICT、Senior、visa sponsorship 搜索提醒。</small><i>↗</i></a><a href="https://www.trademe.co.nz/a/jobs" target="_blank" rel="noreferrer"><b>Trade Me Jobs</b><small>本地雇主覆盖广，适合补充 SEEK 的结果。</small><i>↗</i></a><a href="https://nz.linkedin.com/jobs" target="_blank" rel="noreferrer"><b>LinkedIn Jobs</b><small>适合找国际公司、招聘经理和 referral。</small><i>↗</i></a><a href="https://www.careers.govt.nz/" target="_blank" rel="noreferrer"><b>Careers NZ</b><small>政府职业信息、求职资料和职位入口汇总。</small><i>↗</i></a></article>
             <article class="resource-group"><div class="resource-head"><span>02</span><h3>找租房</h3></div><a href="https://www.trademe.co.nz/a/property/residential/rent" target="_blank" rel="noreferrer"><b>Trade Me Property</b><small>新西兰最大的租房市场之一，先按 suburb 和预算筛选。</small><i>↗</i></a><a href="https://www.realestate.co.nz/residential/rent" target="_blank" rel="noreferrer"><b>realestate.co.nz</b><small>房地产机构房源，适合和 Trade Me 交叉比较。</small><i>↗</i></a><a href="https://www.oneroof.co.nz/" target="_blank" rel="noreferrer"><b>OneRoof</b><small>房源、区域和市场信息入口。</small><i>↗</i></a><a href="https://www.tenancy.govt.nz/" target="_blank" rel="noreferrer"><b>Tenancy Services</b><small>确认押金、租约、Healthy Homes 和租客权利。</small><i>↗</i></a></article>
@@ -127,13 +155,13 @@
           <div class="checklist" data-checklist>
             <label><input type="checkbox" />整理英文简历：后端/分布式系统项目用指标表达</label>
             <label><input type="checkbox" />准备 AI Agent 生产项目：架构、评估、安全、成本、可观测性</label>
-            <label><input type="checkbox" />建立奥克兰目标公司清单，逐个核对 accredited employer</label>
-            <label><input type="checkbox" />确认目标职位的 ANZSCO/Green List 匹配和工资门槛</label>
-            <label><input type="checkbox" />拿到 offer 后核对雇主认证、合同、Base salary、KiwiSaver 和签证支持</label>
+            <label><input type="checkbox" />建立新西兰目标公司清单，逐个核对 accredited employer 和 Green List 匹配</label>
+            <label><input type="checkbox" />建立澳洲目标公司清单，核对 sponsor approval、境外招聘及职位 nomination</label>
+            <label><input type="checkbox" />拿到 offer 后按国家核对工资、合同、雇主担保和居民路径</label>
             <label><input type="checkbox" />整理学历、工作证明、推荐信、无犯罪和体检材料</label>
             <label><input type="checkbox" />按 IELTS 7.0 / PTE 65 准备英文技术面试</label>
             <label><input type="checkbox" />准备共同居住和关系证据，再核对伴侣签证方案</label>
-            <label><input type="checkbox" />规划抵达后30天：银行、IRD、手机、租房、GP 和交通</label>
+            <label><input type="checkbox" />分别规划抵达新西兰或澳洲后的税号、银行、租房、医疗和交通</label>
             <label><input type="checkbox" />把每个官方页面的最后核验日期记录下来</label>
           </div>
           <p class="privacy-note">隐私边界：本页面没有记录姓名、雇主、学校、职位年限、当前收入或家庭成员身份。勾选状态只保存在当前浏览器。</p>
