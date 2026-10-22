@@ -2,7 +2,7 @@
  * nav: N9 Edge-aligned minimal + workspace navigation · footer: Ft2 Inline single line
  * enrichment: none · motion: view crossfade, dialog fade, press feedback
  * audience: Chinese-speaking technical professionals · use: plan a move to Australia or New Zealand
- * Hallmark · pre-emit critique: P4 H4 E3 S5 R4 V5
+ * Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V5
  */
 
 * { box-sizing: border-box; }
@@ -196,6 +196,7 @@ input[aria-invalid="true"] { border-color: var(--color-error); }.error-text { co
   .app-layout { grid-template-columns: 240px minmax(0, 1fr); }.main-content { padding-inline: var(--space-3xl); }.overview-hero { padding-top: var(--space-2xl); }.overview-trust a { margin-inline-start: auto; }.company-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }.destination-card { padding: var(--space-xl) var(--space-2xl); }
 }
 @media (max-width: 39.99rem) {
+  #employers .filter-bar .field:not(.search-field) { flex-basis: calc(50% - var(--space-xs)); }
   .overview-hero h1 { font-size: clamp(2rem, 7.6vw, 2.5rem); }
   .comparison-table tbody th, .comparison-table td { width: 100%; }.filter-bar .field { min-width: 0; flex-basis: 100%; }
   .section-heading { display: block; }.data-table, .data-table tbody, .data-table tr, .data-table th, .data-table td { display: block; width: 100%; }.data-table thead { display: none; }.data-table tbody th { padding-bottom: var(--space-xs); color: var(--color-ink); border: 0; }.data-table td { padding-top: var(--space-xs); }.data-table td[data-label]::before { content: attr(data-label); display: block; font-size: var(--text-xs); color: var(--color-quiet); margin-bottom: var(--space-xs); }.data-table td:empty { display: none; }.guide-tabs { gap: 0; padding-block: var(--space-xs); }.guide-tabs a { padding-inline: var(--space-sm); font-size: var(--text-xs); }.next-step-banner { padding: var(--space-lg); }.company-footer { flex-wrap: wrap; }.progress-panel { padding: var(--space-md); }.progress-panel .button { margin-inline-start: 0; }.site-footer p { flex-basis: 100%; }.site-footer > a { margin-inline-start: 0; }

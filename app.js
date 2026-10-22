@@ -386,6 +386,11 @@
   });
   $("#site-nav").addEventListener("click", e => { if (e.target.closest("a")) closeMenu(); });
   window.matchMedia("(min-width: 64rem)").addEventListener("change", closeMenu);
+  $(".skip-link").addEventListener("click", e => {
+    e.preventDefault();
+    main.focus({ preventScroll: true });
+    window.scrollTo({ top: 0, behavior: "instant" });
+  });
   window.addEventListener("hashchange", route);
   renderOverview();
   updateProgress();
