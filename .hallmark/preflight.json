@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22",
+  "framework": "vanilla HTML, CSS and JavaScript",
+  "entry": "index.html",
+  "previousTypography": "Manrope and Noto Serif SC",
+  "previousPalette": "lime, blue, orange and dark green",
+  "previousMotion": "CSS smooth scrolling; no motion library",
+  "scope": "User requested whole-site content, UI and UX reconstruction.",
+  "preserved": ["public-safe content", "GitHub Pages", "custom domain", "country separation", "legacy links and checklist"],
+  "introduced": ["source registry", "topic views", "search", "evidence filters", "responsive dark design tokens"]
+}
